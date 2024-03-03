@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  /* grid-template-rows: 200px 300px; */
+  gap: 10px;
+  margin: 40px 40px 40px 40px; /*Gap of 10 pixels between grid items */
+}
+
+.grid-item {
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  height: 150px;
+  width: 150px;
+}
